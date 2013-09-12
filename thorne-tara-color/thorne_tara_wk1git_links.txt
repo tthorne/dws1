@@ -1,0 +1,2 @@
+Git Link - https://github.com/tthorne/dws1/blob/master/thorne-tara-color/color.html
+gh-pages Link - http://tthorne.github.io/dws1/thorne-tara-color/color.html
