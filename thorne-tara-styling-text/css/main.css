@@ -1,0 +1,71 @@
+body {
+	background-color: rgb(223,236,241); /* RGB Color */
+	font: normal normal normal 10pt/normal Noticia Text, serif;
+	color: DimGray; /* Color Name */
+	}
+
+h1 {
+	background-color: rgba(24,123,162,0.5); /* RGB Opacity */
+	border-bottom: 1px solid #A2186F; /* Hex */
+	color: #A2186F; /* Hex Color */
+	font: normal normal bold 28pt/2 Oleo Script Swash Caps, cursive;
+	text-align: center;
+	text-shadow: 2px 2px 6px #000000;
+	}
+	
+h2 {
+	background-color: hsl(322,85%,64%); /* HSL Color */
+	border-bottom: 1px solid #187BA2; /* Hex Color */
+	color: #187BA2; /* Hex Color */
+	font: normal small-caps bold 24pt/1 Noticia Text, serif;
+	letter-spacing: 0.2em;
+	text-shadow: 1px 1px 3px #000000;
+	}
+	
+h3 {
+	background-color: hsla(197,85%,64%,0.35); /* HSL Opacity */
+	border-bottom: 1px solid #187BA2; /* Hex Color */
+	color: #187BA2; /* Hex Color */
+	font: italic small-caps bold 18pt/1 Noticia Text, serif;
+	text-shadow: 1px 1px 3px #ffffff;
+	}
+	
+p.one {
+	background-color: rgba(24,123,162,0.15); /* RGB Opacity */
+	}
+
+p.two {
+	background-color: rgba(207,208,209,0.15); /* RGB Opacity */
+	}
+	
+b {
+	color: #A2186F;
+	}
+
+i {
+	color: #187BA2;
+	}
+
+a, a:link, a:visited, a:visited {
+	color: #A2186F;
+	font: normal normal bold 10pt/normal Noticia Text, serif;
+	text-decoration: none;
+	
+	}
+
+a:hover {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: line-through;
+	background-color: rgb(24,123,162); /* RGB Color */
+	}
+
+li.professionsOne {
+	background-color: rgba(24,123,162,0.15); /* HSL Opacity */
+	border-bottom: 1px solid #187BA2;
+	}
+
+li.professionsTwo {
+	background-color: rgba(207,208,209,0.15); /* HSL Opacity */
+	border-bottom: 1px solid #187BA2;
+	}
