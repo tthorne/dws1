@@ -1,0 +1,133 @@
+body {
+	font: normal normal normal 0.9em Noticia Text, serif;
+	color: DimGray; /* Color Name */
+	background: #dfecf1 url("../images/frozen.gif");
+	}
+
+h1 {
+	background-color: rgba(24,123,162,0.5); /* RGB Opacity */
+	border-bottom: 1px solid #A2186F; /* Hex */
+	color: #A2186F; /* Hex Color */
+	font: normal normal bold 4em/2 Oleo Script Swash Caps, cursive;
+	text-align: center;
+	text-shadow: 2px 2px 6px #000000;
+	margin: -20px;
+	}
+	
+h2 {
+	border-bottom: 1px solid #187BA2; /* Hex Color */
+	color: #187BA2; /* Hex Color */
+	font: normal small-caps bold 2em/2 Noticia Text, serif;
+	letter-spacing: 0.2em;
+	text-shadow: 1px 1px 3px #000000;
+	background: hsl(322,85%,64%) url("../images/heavenly_sword.png") repeat-y top right; /* HSL Color */
+	margin: 0px;
+	}
+	
+h3 {
+	background-color: hsla(197,85%,64%,0.35); /* HSL Opacity */
+	border-bottom: 1px solid #187BA2; /* Hex Color */
+	color: #187BA2; /* Hex Color */
+	font: italic small-caps bold 1em/1 Noticia Text, serif;
+	text-shadow: 1px 1px 3px #ffffff;
+	}
+	
+b {
+	color: #A2186F;
+	}
+
+i {
+	color: #187BA2;
+	}
+
+a, a:link, a:visited, a:visited {
+	color: #A2186F;
+	font: bold 0.9em Noticia Text, serif;
+	text-decoration: none;
+	
+	}
+
+a:hover {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: line-through;
+	background-color: rgb(24,123,162); /* RGB Color */
+	}
+
+#content {
+	width: 60%;
+	margin: 1px auto 3px auto;
+	border: 5px solid DimGray; 
+	background-color: #ffffff;
+	padding: 20px;  
+	border-radius: 10px;  
+	box-shadow: 1px 1px 3px #777777;
+	}
+/* Column One */
+#column1 {
+	float: left;
+	width: 65%;
+	margin: 1%;
+	}
+	
+/* Navigation */
+#nav {
+	text-align: center;
+	background-color: hsl(322,85%,64%); /* HSL Color */
+	height: 20px;
+	border-bottom: 1px solid #187BA2;
+	margin: -20px -20px 5px -20px;
+	}
+
+#nav li {
+	display: inline;
+	text-align: center;
+	margin: 10px;
+	
+	}
+
+/* Content */	
+div.about {
+	width: 90%;
+	background-color: rgb(223,236,241); /* RGB Color */
+	border: 2px dotted DimGray;
+	margin: 0px auto 15px auto;
+	padding: 10px;
+	border-radius: 30px;  
+	box-shadow: 1px 1px 3px #A2186F;
+	}
+
+p.odd {
+	background-color: rgba(24,123,162,0.15); /* RGB Opacity */
+	}
+
+/* Professions List */
+#column2 {
+	float: right;
+	width: 30%;
+	border: 1px solid DimGray; /* Color Name */
+	background-image: linear-gradient(to bottom, #ffffff, rgba(24,123,162,0.20));
+	box-shadow: 1px 1px 3px DimGray;
+	}
+	
+#prof li {
+	padding: 5px;
+	line-height: 15pt;
+	border-bottom: 1px solid #187BA2;
+	margin-right: 20px;
+	text-shadow: 1px 1px 3px #ffffff;
+	border-bottom: 1px solid #187BA2;
+	}
+	
+li.professionsOne {
+	background-color: rgba(24,123,162,0.15); /* HSL Opacity */
+	}
+		
+/* footer */
+#footer {
+	clear: both;
+	background-color: hsl(322,85%,64%); /* HSL Color */
+	line-height: 20pt;
+	margin: -20px;
+	padding: 5px;
+ 	}	
