@@ -1,0 +1,2 @@
+Git Link - https://github.com/tthorne/dws1/tree/gh-pages/thorne-tara-html5-layout-tables
+gh-pages Link - http://tthorne.github.io/dws1/thorne-tara-html5-layout-tables/html5-layout-tables.html
