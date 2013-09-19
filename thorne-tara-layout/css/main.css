@@ -1,0 +1,137 @@
+body {
+	background-color: rgb(223,236,241); /* RGB Color */
+	font: -1em Noticia Text, serif;
+	color: DimGray; /* Color Name */
+	}
+
+h1 {
+	background-color: rgba(24,123,162,0.5); /* RGB Opacity */
+	border-bottom: 1px solid #A2186F; /* Hex */
+	color: #A2186F; /* Hex Color */
+	font: bold 4em/2 Oleo Script Swash Caps, cursive;
+	text-align: center;
+	text-shadow: 2px 2px 6px #000000;
+	}
+	
+h2 {
+	background-color: hsl(322,85%,64%); /* HSL Color */
+	border-bottom: 1px solid #187BA2; /* Hex Color */
+	color: #187BA2; /* Hex Color */
+	font: small-caps bold 2em/1 Noticia Text, serif;
+	letter-spacing: 0.2em;
+	text-shadow: 1px 1px 3px #000000;
+	}
+	
+h3 {
+	background-color: hsla(197,85%,64%,0.35); /* HSL Opacity */
+	border-bottom: 1px solid #187BA2; /* Hex Color */
+	color: #187BA2; /* Hex Color */
+	font: italic small-caps bold 1em/1 Noticia Text, serif;
+	text-shadow: 1px 1px 3px #ffffff;
+	}
+	
+b {
+	color: #A2186F;
+	}
+
+i {
+	color: #187BA2;
+	}
+
+a, a:link, a:visited, a:visited {
+	color: #A2186F;
+	font: bold -1em Noticia Text, serif;
+	text-decoration: none;
+	
+	}
+
+a:hover {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: line-through;
+	background-color: rgb(24,123,162); /* RGB Color */
+	}
+
+#content {
+	width: 60%;
+	margin: 1px auto 3px auto;
+	border: 5px solid DimGray; 
+	background-color: #ffffff;
+	padding: 20px;  
+	border-radius: 10px;  
+	box-shadow: 1px 1px 3px #777777;
+	}
+/* Column One */
+#column1 {
+	float: left;
+	width: 65%;
+	margin: 1%;
+	}
+	
+/* Navigation */
+#nav {
+	text-align: center;
+	background-color: hsl(322,85%,64%); /* HSL Color */
+	height: 20px;
+	border-bottom: 1px solid #187BA2;
+	}
+
+#nav li {
+	display: inline;
+	text-align: center;
+	margin: 10px;
+	
+	}
+
+/* Content */	
+div.about {
+	width: 90%;
+	background-color: rgb(223,236,241); /* RGB Color */
+	border: 2px dotted DimGray;
+	margin: 0px auto 0px auto;
+	padding: 10px;
+	border-radius: 30px;  
+	box-shadow: 1px 1px 3px #A2186F;
+	}
+
+p.odd {
+	background-color: rgba(24,123,162,0.15); /* RGB Opacity */
+	}
+
+/* Professions List */
+#column2 {
+	float: right;
+	width: 30%;
+	}
+	
+div.profs {
+	background-color: rgb(223,236,241); /* RGB Color */
+	border: 2px dotted DimGray;
+	border-radius: 30px;  
+	box-shadow: 1px 1px 3px #A2186F;
+	}
+	
+li.professionsOne {
+	padding: 5px;
+	line-height: 15pt;
+	background-color: rgba(24,123,162,0.15); /* HSL Opacity */
+	border-bottom: 1px solid #187BA2;
+	margin-right: 20px;
+	text-shadow: 1px 1px 3px #ffffff;
+	}
+
+li.professionsTwo {
+	padding: 5px;
+	line-height: 15pt;
+	background-color: rgba(207,208,209,0.15); /* HSL Opacity */
+	border-bottom: 1px solid #187BA2;
+	margin-right: 20px;
+	text-shadow: 1px 1px 3px #ffffff;
+	}
+	
+/* footer */
+#footer {
+	clear: both;
+	background-color: hsl(322,85%,64%); /* HSL Color */
+	line-height: 20pt;
+ 	}	
